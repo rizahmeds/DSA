@@ -1,3 +1,5 @@
+# Must do Pattern Problems before starting DSA
+
 def pattern1():
     """
     * * * * * 
