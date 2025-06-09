@@ -107,6 +107,21 @@ def pattern8():
         for _ in range((i*2)-1):
             print("*", end=" ")
         print("")
+
+def pattern9():
+    """
+    1 
+    0 1 
+    1 0 1 
+    0 1 0 1 
+    1 0 1 0 1 
+    """
+    for i in range(1,6):
+        digit = 1 if i%2 else 0
+        for j in range(i):
+            print(digit, end=" ")
+            digit = 1-digit
+        print("")
         
     
 pattern1()
@@ -117,3 +132,4 @@ pattern5()
 pattern6()
 pattern7()
 pattern8()
+pattern9()
