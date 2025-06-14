@@ -137,6 +137,21 @@ def pattern13():
             print(num, end=" ")
             num = num+1
         print("")
+
+def pattern14():
+    """
+    A 
+    A B 
+    A B C 
+    A B C D 
+    A B C D E
+    """
+    for i in range(5):
+        ascii_start = 65
+        for j in range(i+1):
+            print(chr(ascii_start), end=" ")
+            ascii_start = ascii_start+1
+        print("")
         
     
 pattern1()
@@ -148,4 +163,5 @@ pattern6()
 pattern7()
 pattern8()
 pattern9()
+pattern13()
 pattern13()
