@@ -1,4 +1,4 @@
-# Must do Pattern Problems before starting DSA
+# Must do Pattern Problems before starting DSA.
 
 def pattern1():
     """
@@ -122,6 +122,21 @@ def pattern9():
             print(digit, end=" ")
             digit = 1-digit
         print("")
+
+def pattern13():
+    """
+    1 
+    2 3 
+    4 5 6 
+    7 8 9 10 
+    11 12 13 14 15
+    """
+    num = 1
+    for i in range(5):
+        for j in range(i+1):
+            print(num, end=" ")
+            num = num+1
+        print("")
         
     
 pattern1()
@@ -133,3 +148,4 @@ pattern6()
 pattern7()
 pattern8()
 pattern9()
+pattern13()
