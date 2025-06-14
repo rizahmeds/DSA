@@ -152,8 +152,38 @@ def pattern14():
             print(chr(ascii_start), end=" ")
             ascii_start = ascii_start+1
         print("")
-        
-    
+
+def pattern15():
+    """
+    A B C D E 
+    A B C D 
+    A B C 
+    A B 
+    A
+    """
+    for i in range(5):
+        ascii_start = 65
+        for j in range(5,i,-1):
+            print(chr(ascii_start), end=" ")
+            ascii_start = ascii_start+1
+        print("")
+
+def pattern16():
+    """
+    A 
+    B B 
+    C C C 
+    D D D D 
+    E E E E E
+    """
+    ascii_start = 65
+    for i in range(5):
+        for j in range(i+1):
+            print(chr(ascii_start), end=" ")
+        ascii_start = ascii_start+1
+        print("")
+
+
 pattern1()
 pattern2()
 pattern3()
@@ -164,4 +194,6 @@ pattern7()
 pattern8()
 pattern9()
 pattern13()
-pattern13()
+pattern14()
+pattern15()
+pattern16()
