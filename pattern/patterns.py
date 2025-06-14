@@ -204,6 +204,23 @@ def pattern17():
                 ascii_start = ascii_start-1
         print("")
 
+def pattern18():
+    """
+    E
+    D E 
+    C D E 
+    B C D E 
+    A B C D E
+    """
+    rows = 5
+    ascii_start = 65
+    for i in range(rows): # i=1,4
+        ascii_end = ascii_start + (rows-i-1) # 68
+        for j in range(i+1): # j=0,i
+            print(chr(ascii_end), end=" ")
+            ascii_end = ascii_end + 1
+        print("")
+
 
 pattern1()
 pattern2()
@@ -219,3 +236,4 @@ pattern14()
 pattern15()
 pattern16()
 pattern17()
+pattern18()
