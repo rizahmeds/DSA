@@ -20,6 +20,8 @@ Linklist consist of nodes. Nodes not stored in contiguous memory location rather
 
 ## Heap
 Heap data structure should be a compelte binary tree and parent nodes are either greater than or equal to or less than or equal to their children, depending on whether it's a max-heap or min-heap. Root should be largest in max-heap and smallest in min-heap.
+### When to use
+1. To find the largest/smallest item in **O(1)** constant time. But to add item it will take **O(log n)** time.
 
 ## Priority Queue
 In a priority queue, each element has an associated priority, which determines its order of service. Priority queue serves highest priority items first. Priority queue can be implemented using an array, a linked list, a heap data structure, or a binary search tree. Among these data structures, **heap data structure** provides an efficient implementation of priority queues.
