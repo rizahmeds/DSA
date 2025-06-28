@@ -47,10 +47,10 @@ if __name__ == "__main__":
     heap_arr = []
     for ele in arr:
         heap_insertion(heap_arr, ele)
-    print("Heap array:", heap_arr)
+    print("Heap array:", heap_arr) #[2, 5, 15, 10, 20, 30]
 
     delete_heap(heap_arr)
-    print("After deletion array:", heap_arr)
+    print("After deletion array:", heap_arr) #[5, 10, 15, 30, 20]
     
 
 
