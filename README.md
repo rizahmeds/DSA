@@ -18,3 +18,18 @@ Linklist consist of nodes. Nodes not stored in contiguous memory location rather
 ### When not to use
 1. Searching for data is linear time operation. In worst case scenario it gives O(n) time complexity.
 
+## Heap
+Heap data structure should be a compelte binary tree and parent nodes are either greater than or equal to or less than or equal to their children, depending on whether it's a max-heap or min-heap. Root should be largest in max-heap and smallest in min-heap.
+### When to use
+1. 
+### When not to use
+
+## Priority Queue
+In a priority queue, each element has an associated priority, which determines its order of service. Priority queue serves highest priority items first.
+
+
+
+
+
+
+
