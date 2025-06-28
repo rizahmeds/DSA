@@ -14,7 +14,7 @@ Heap data structure is a complete binary tree, nodes at each level are fully fil
 **<ins>Deletion</ins>:** Delete the root element of the heap by first swapping it with the last element then delete the last element. Perform the heapify operation over the heap array so that it maintains the heap properties.
 
 ## How heap work
-It stored in array but represented as a complete binary tree, so to an array elements represent it into complete binary first. 
+It stored in array but represented as a complete binary tree, so to an array elements represent it into complete binary tree first. 
 - Parent of any node i, is i//2.
 - Left of any node i, is 2*i.
 - Right of any node i, is (2*i)+1.
